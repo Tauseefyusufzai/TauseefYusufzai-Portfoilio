@@ -1,3 +1,10 @@
+window.addEventListener('load', function() {
+    setTimeout(function() {
+        document.getElementById('loader-wrapper').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+    }, 5000); // Delay in milliseconds (3000ms = 3 seconds)
+});
+
 // animation on scroll.......................
 
 
@@ -9,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const rect = el.getBoundingClientRect();
 
             // Check if the element is in view
-            if (rect.top < window.innerHeight && rect.bottom > 0) {
+            if (rect.top <= window.innerHeight && rect.bottom >= 0) {
                 el.classList.add("show");
             } else {
                 el.classList.remove("show");
@@ -77,3 +84,4 @@ window.addEventListener('scroll', () => {
           })
           .catch(error => alert("There was an error Sending the Message: " + error.message));
   });
+

@@ -130,7 +130,13 @@
 
 
 @media screen and (max-width: 600px) {
-
+    #logo{
+        width: 50%;
+    }
+    #loader{
+        width: 40%;
+    }
+    
     .left {
         font-size: 2rem;
     }
@@ -329,6 +335,11 @@
     }
     .edu-quali-subhead-content {
         width: 90%;
+    }
+
+    .certificate-pic img{
+        width: 200px;
+        margin: 20px;
     }
 
     .container {

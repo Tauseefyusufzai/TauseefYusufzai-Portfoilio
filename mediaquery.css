@@ -1,0 +1,510 @@
+/* Media Queries for Responsiveness */
+
+@media screen and (max-width: 1200px) {
+    .firstsection {
+        flex-direction: column;
+        margin: 50px;
+        height: 100%;
+    }
+
+    .leftsection{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .profile-pic-avatar {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+    }
+
+    .first-section-left-detail {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+    }
+
+    .rightsection {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .rightsection {
+        font-size: 1rem;
+    }
+
+    .about-box,
+    .about-box1,
+    .about-box2,
+    .about-box3 {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .about-box1-main{
+        flex-direction: column;
+    }
+    .about-box1-main-content {
+        width: 100%;
+    }
+    .profile,
+    .profile-box {
+        text-align: center;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .profile-box0,
+    .profile-box1,
+    .profile-box2 {
+        width: 100%;
+    }
+
+    .about-box3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-box3-left,
+    .about-box3-right {
+        width: 100%;
+    }
+
+    .about-box4 {
+        display: block;
+    }
+
+    .about-box4-left {
+        font-size: 3rem;
+    }
+
+    .about-box4-left-name {
+        font-size: 3rem;
+    }
+
+    .project-section {
+        padding: 5%;
+        display: grid;
+        align-items: center;
+    }
+
+    .project-section-right {
+        overflow: visible;
+        height: 100%;
+    }
+    .thirdsection{
+        height: 100%;
+    }
+    .profile-box {
+        padding: 40px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .profile-box-links {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:800px){
+
+    .about-box{
+        flex-direction: column;
+        height: 100%;
+    }
+    .about-box-left,
+    .about-box-right{
+        width: 100%;
+    }
+    .about-box1-gif-animation{
+        display: none;
+    } 
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .left {
+        font-size: 2rem;
+    }
+
+    .logoname {
+        padding-top: 10px;
+        width: 180px;
+    }
+
+    #img-gif6 {
+        display: none;
+    }
+
+    header{
+        width: 100%;
+    }
+    
+    nav{
+        padding-left: 0%;
+        padding-right: 20px;
+   
+    }
+
+    nav ul {
+        filter: drop-shadow(2px 2px 5px black);
+        top: 0;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.3s;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        background: rgba(15, 103, 177, 0.8);
+        position: fixed;
+
+    }
+
+    nav ul li {
+        color: white;
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul li a {
+        text-align: left;
+        padding: 20px 5px;
+        color: white;
+        font-size: 20px;
+    }
+
+    nav .fa-xmark {
+        color: white;
+        position: absolute;
+        font-size: 2rem;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+        display: block;
+    }
+
+    nav .fa-bars {
+        font-size: 30px;
+        display: block;
+    }
+
+    .firstsection {
+        padding: 50px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .first-section-left-detail {
+        display: none;
+    }
+
+    .rightsection {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .name1 {
+        font-size: 25px;
+    }
+
+    .name2 {
+        font-size: 1.7rem;
+    }
+
+    .name3 {
+        font-size: 18px;
+    }
+
+    #element {
+        font-size: 1.5rem;
+    }
+
+    .profile-pic-avatar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        border-radius: 100%;
+    }
+
+    .firstsection {
+        margin: 20px;
+    }
+    .about-box-right{
+        padding: 10px;
+    }
+
+    .profile-box a {
+        padding: 10px;
+    }
+
+    .secondsection-h1 {
+        text-align: center;
+        padding-left: 0;
+        font-size: 3rem;
+    }
+
+    .master-about {
+        display: block;
+    }
+
+    .profilepic2 {
+        transition: 0.5s;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .about-box {
+        padding: 30px;
+        width: 100%;
+    }
+
+
+    .about-box2 {
+        padding: 30px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #fa-stop-box {
+        padding-top: 7px;
+        font-size: 1rem;
+    }
+
+    #name {
+        font-size: 1.1rem;
+    }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay-btn {
+        font-size: 20px;
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .overlay-content {
+        top: 3%;
+    }
+
+    .my-edu-detail {
+        padding: 20px;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .edu-quali-head {
+        font-size: 1.5rem;
+    }
+
+    .edu-quali-subhead {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .skills-head {
+        font-size: 2.5rem;
+    }
+    .about-box2-skills-content {
+        text-align: justify;
+        font-size: 11px;
+    }
+    .about-box1{
+        padding: 0;
+    }
+    .about-box1-h1 {
+        margin-top: 10%;
+        font-size: 1.5rem;
+    }
+    .about-box1-main-content h2 {
+        font-size: 1.2rem;
+    }
+    .about-box1-main-content p{
+        margin-left: 60px;
+        font-size: 1rem;
+    }
+    .about-box1-icon {
+        width: 40px;
+    }
+
+    .about-box3 {
+        width: 100%;
+    }
+
+    #img-gif3 {
+        width: 100%;
+    }
+
+    .about-box3-h1 {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+
+    .about-box4 {
+        margin-top: 30px;
+        padding: 0px;
+        display: block;
+    }
+
+    .about-box4 img {
+        width: 200px;
+    }
+
+    .about-box4-left {
+        font-size: 2rem;
+    }
+
+    .about-box4-left-name {
+        font-size: 2rem;
+    }
+    .about-box4-right {
+        margin-top: 0px;
+    }
+    .project-section-back{
+        margin-top: 50px;
+    }
+
+    .project-section {
+        display: grid;
+        align-items: center;
+    }
+    .project-section-left {
+        width: 100%;
+    }
+    .project-section-right{
+        padding: 0%;
+    }
+
+    .project-section-left-heading {
+        transition: 0.3s;
+        margin-top: 0%;
+        margin-left: 0%;
+        font-size: 2rem;
+    }
+    .project-section-left-heading p{
+        font-size: 1rem;
+        text-align: center;
+        color: black;
+        margin-left: 0px;
+    }
+
+    #img-gif5 {
+        width: 100%;
+    }
+
+    .project-section-right-ul-li-div1 {
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 1px 20px 0 rgba(194, 194, 194, 0.5);
+        display: block;
+    }
+
+    .project-section-right-ul-li-div1-left {
+        margin-left: 15px;
+    }
+    .footerbox img {
+        width: 180px;
+    }
+
+    .thirdsection{
+        height: 100%;
+    }
+    .profile-box {
+        padding: 0;
+        width: 100%;
+        font-size: 15px;
+    }
+    .profile-box-links {
+        display: flex;
+        width: 100%;
+    }
+
+
+    .contact h2{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+    .rightsection {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .secondsection-h1{
+        font-size: 2.5rem;
+    }
+
+    .profilepic2 {
+        width: 150px;
+    }
+    .profilepic2:hover{
+        border-radius: 50%;
+        width: 150px;
+    }
+
+    .about-box3-left p {
+        font-size: 1rem;
+    }
+
+    .about-box3-right .btn {
+        width: 150px;
+        font-size: 1rem;
+    }
+
+    .master-about {
+        display: block;
+    }
+
+    .about-box,
+    .about-box2 {
+        padding: 20px;
+        width: 100%;
+        display: block;
+        /* Ensure boxes stack vertically */
+    }
+
+    .about-box-content {
+        text-align: justify;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .overlay-btn {
+        margin-left: 20px;
+    }
+
+    .about-box3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-box3-left,
+    .about-box3-right {
+        width: 100%;
+    }
+
+    .techtable img {
+        width: 60px;
+        padding: 8px;
+        transition: 0.8s;
+    }
+}

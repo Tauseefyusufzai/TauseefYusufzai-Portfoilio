@@ -352,7 +352,7 @@ nav ul li a:hover {
     background: linear-gradient(90deg, rgba(44,177,249,0.11789215686274506) 26%, rgba(250,255,175,0.11228991596638653) 68%);    
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 100%;
     text-align: left;
     padding: 40px;
     font-size: 13px;
@@ -1098,7 +1098,8 @@ nav ul li a:hover {
     padding: 5%;
     max-width: 100%;
     margin: auto;
-    height: 80vh;
+    height: 100vh;
+    place-content: center;
 }
 
 

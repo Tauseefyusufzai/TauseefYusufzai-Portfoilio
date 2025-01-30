@@ -85,3 +85,15 @@ window.addEventListener('scroll', () => {
           .catch(error => alert("There was an error Sending the Message: " + error.message));
   });
 
+
+  function validateForm() {
+    const name = document.getElementById('fname').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('subject').value;
+
+    if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
+        alert('Please fill in all required fields.');
+        return false;
+    }
+    return true;
+}

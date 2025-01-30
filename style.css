@@ -38,7 +38,7 @@ html {
     inset: 0 100% 0 0;
     border-radius: inherit;
     background: currentColor;
-    animation: l6 5s infinite;
+    animation: l6 2s infinite;
 }
 
 @keyframes l6 {

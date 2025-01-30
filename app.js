@@ -2,7 +2,7 @@ window.addEventListener('load', function() {
     setTimeout(function() {
         document.getElementById('loader-wrapper').style.display = 'none';
         document.getElementById('content').style.display = 'block';
-    }, 5000); // Delay in milliseconds (3000ms = 3 seconds)
+    }, 2000); // Delay in milliseconds (3000ms = 3 seconds)
 });
 
 // animation on scroll.......................

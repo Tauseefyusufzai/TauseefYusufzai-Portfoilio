@@ -38,7 +38,7 @@ html {
     inset: 0 100% 0 0;
     border-radius: inherit;
     background: currentColor;
-    animation: l6 2s infinite;
+    animation: l6 1s infinite;
 }
 
 @keyframes l6 {
@@ -592,7 +592,7 @@ nav ul li a:hover {
 
 .about-box1-main-content:hover{
     transform: translateY(-10px);
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition: 0.3s;
 }
 
